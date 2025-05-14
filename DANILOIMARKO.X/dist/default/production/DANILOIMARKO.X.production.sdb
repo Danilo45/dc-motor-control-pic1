@@ -1,0 +1,220 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87K22 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"54 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/epwm3.c
+[v _EPWM3_Initialize EPWM3_Initialize `(v  1 e 1 0 ]
+"90
+[v _EPWM3_LoadDutyValue EPWM3_LoadDutyValue `(v  1 e 1 0 ]
+"50 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"315 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f87k22.h
+[v _PSTR3CON PSTR3CON `VEuc  1 e 1 @3866 ]
+"1081
+[v _ANCON2 ANCON2 `VEuc  1 e 1 @3875 ]
+"1193
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3876 ]
+"1305
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3877 ]
+"1612
+[v _REFOCON REFOCON `VEuc  1 e 1 @3882 ]
+[s S150 . 1 `uc 1 C1TSEL 1 0 :3:0 
+`uc 1 C2TSEL 1 0 :3:3 
+`uc 1 C3TSEL 1 0 :2:6 
+]
+"1813
+[s S154 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C1TSEL2 1 0 :1:2 
+`uc 1 C2TSEL0 1 0 :1:3 
+`uc 1 C2TSEL1 1 0 :1:4 
+`uc 1 C2TSEL2 1 0 :1:5 
+`uc 1 C3TSEL0 1 0 :1:6 
+`uc 1 C3TSEL1 1 0 :1:7 
+]
+[u S163 . 1 `S150 1 . 1 0 `S154 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES163  1 e 1 @3885 ]
+"3502
+[v _CCP3CON CCP3CON `VEuc  1 e 1 @3913 ]
+"3591
+[v _CCPR3L CCPR3L `VEuc  1 e 1 @3914 ]
+"3611
+[v _CCPR3H CCPR3H `VEuc  1 e 1 @3915 ]
+"3631
+[v _ECCP3DEL ECCP3DEL `VEuc  1 e 1 @3916 ]
+"3701
+[v _ECCP3AS ECCP3AS `VEuc  1 e 1 @3917 ]
+"5312
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @3940 ]
+"9570
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"9682
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"9794
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"9906
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"10018
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"10130
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"10232
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"10308
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"10532
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"10594
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10656
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10718
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"10780
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10842
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"10899
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"10943
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"11067
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S188 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"11309
+[s S197 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S202 . 1 `S188 1 . 1 0 `S197 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES202  1 e 1 @3998 ]
+"16063
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+[s S221 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"16084
+[s S225 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S233 . 1 `S221 1 . 1 0 `S225 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES233  1 e 1 @4042 ]
+"16134
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"16154
+[v _TMR2 TMR2 `VEuc  1 e 1 @4044 ]
+"16625
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S85 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"17576
+[s S94 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S103 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S107 . 1 `S85 1 . 1 0 `S94 1 . 1 0 `S103 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES107  1 e 1 @4082 ]
+"54 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"74
+[v main@duty_cycle duty_cycle `VEs  1 a 2 6 ]
+"75
+[v main@flag flag `VEa  1 a 1 5 ]
+"120
+} 0
+"50 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"62 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"55 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"59 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"64 C:\Users\Studenti\Desktop\Danilo_Marko\DANILOIMARKO.X\mcc_generated_files/epwm3.c
+[v _EPWM3_Initialize EPWM3_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"90
+[v _EPWM3_LoadDutyValue EPWM3_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v EPWM3_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"97
+} 0
